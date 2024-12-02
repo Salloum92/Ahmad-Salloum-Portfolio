@@ -450,3 +450,228 @@ body{
 
 
 }
+
+
+
+
+/* استعلامات الوسائط للأجهزة الصغيرة */
+
+/* شاشة أصغر من 768px */
+@media (max-width: 768px) {
+    
+
+
+    .wrapper {
+        height: 80vh;
+        width: 100%;
+    }
+    .book-page .page-front,
+    .book-page .page-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: var(--page-color);
+        padding: 1rem 0.5rem ;
+    }
+    
+    .book-page {
+            height: 100%;
+            padding: 0.5rem;
+        
+    }
+
+    .profile-page h1 {
+        font-size: 0.5rem;
+    }
+
+    .profile-page h3 {
+        line-height: 0;
+
+        font-size: 0.6rem;
+    }
+
+    .profile-page p {
+        font-size: 0.6rem;
+    }
+
+    .book-page h1 {
+        font-size: 1rem;
+    }
+
+    .book-page .profile-page p {
+        font-size: 0.6rem;
+        margin-top: 1rem;
+    }
+    .profile-page .social-media a{
+
+        width: 1rem;
+        height: 1rem;
+        margin: 1rem 0.3rem;
+    }
+    .profile-page .btn-box {
+        margin-top: 2rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+.workeduc-box .workeduc-content{
+    
+    padding-left: 0.3rem;
+    margin-bottom: .3rem;
+}
+.workeduc-box .workeduc-content::before{
+    left: -0.3rem;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.workeduc-content .year{
+    font-size: 12px;
+    margin-bottom: 0.8rem;
+}
+.workeduc-content .year i{
+    font-size: 10px;
+    margin-right: 0.3rem;
+}
+.workeduc-content h3{
+    font-size: 10px;
+}
+.workeduc-content p{
+    font-size: 9px;
+}
+
+.services-box{
+    gap: 0.2rem;
+}
+
+.services-box .services-content{
+    
+    padding: 0.3rem 0.3rem 0.5rem;
+
+}
+
+.services-content i{
+    font-size: 1rem;
+}
+
+.services-content h3{
+    font-size: 10px;
+}
+.services-content p{
+    font-size: 9px;
+}
+
+.skills-box h3{
+    margin-bottom: 0.5rem;
+}
+
+.skills-box  {
+   width: 100%;
+    
+}
+.skills-box .skills-content h3{
+    font-size: qrem;
+}
+.skills-box .content{
+    display: flex;
+    gap: 0.5rem;
+
+}
+.skills-box span {  
+    width: 45%;
+    height: 2.5rem;
+    font-size: 8px;
+}
+
+.skills-box span i {
+    font-size: 1rem;
+}
+
+
+.portfolio-box .image-box{
+    height: 5rem;
+    margin-top: 2rem;
+  
+}
+
+
+
+
+
+.info-box .info-about{
+    font-size: 8px;
+    margin-bottom: 1rem;
+}
+.info-box .info-title{
+    flex-direction: column;
+}
+.info-box .info-title h3{
+    font-size: 1rem;
+}
+.info-box .info-title a{
+    font-size: 0.5rem;
+}
+
+.info-box .pro{
+    font-size: 0.7rem;
+}
+.info-box .info-about{
+    font-size: 11px;
+  
+}
+
+
+}
+
+
+/* شاشة أصغر من 480px */
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 0.5rem;
+    }
+
+    .profile-page h1 {
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .profile-page img {
+        max-width: 120px;
+    }
+}
+
+
+/* شاشة أكبر من 768px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .wrapper {
+        height: 80vh;
+        width: 90%;
+    }
+
+    .profile-page h1 {
+        font-size: 1.8rem;
+    }
+
+    .profile-page h3 {
+        font-size: 1.2rem;
+    }
+
+    .profile-page p {
+        font-size: 1rem;
+    }
+
+    .book-page h1 {
+        font-size: 1.5rem;
+    }
+
+    .services-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .skills-box span {
+        width: 48%;
+        height: 3rem;
+        font-size: 1rem;
+    }
+}
